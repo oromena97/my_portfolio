@@ -1,0 +1,913 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: rgb(31,34,53);
+    width: 100%;
+    padding: 10px;
+}
+
+#nav{
+    display: flex;
+    padding-left: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav li a:hover{
+    color:rgb(255,74,87);
+}
+
+#nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+/* #nav a:hover{
+    background: rgb(255,74,87);
+} */
+
+#nav li{
+    list-style: none;
+    margin: 0 10px;
+    margin-top: 30px;
+}
+
+#brand-logo{
+    width: 15%;
+    height: 12%;
+    padding: 25px;
+}
+
+#home{
+    display: flex;
+    padding-top: 4%;
+    background-color: rgb(36,38,53);
+}
+
+#intro{
+    padding-top: 20%;
+    padding-left: 5%;
+    color: white;
+    width: 700px;
+}
+
+#man img{
+    height: 600px;
+    width: 400px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+#p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: larger; 
+}
+
+.btn-d{
+    margin-top: 45px;
+    padding-bottom: 20px;
+}
+
+#btn1{
+    padding: 12px;
+    border: 2px solid rgb(255,74,87);
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    width: 170px;
+    font-weight: bold;
+}
+
+#btn2{
+    padding: 12px;
+    width: 100px;
+    border: 3px solid rgb(255,74,87);
+    border-radius: 50px;
+    background-color: rgb(255,74,87);
+    color: white;
+}
+
+#btn1:hover{
+    background-color: rgb(255,74,87);
+}
+
+#pic{
+    padding-top: 10%;
+}
+
+#icon{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    border: 3px solid rgb(255,74,87);
+    margin: 0 20px 0 0;
+}
+
+#icon:hover{
+    background-color: rgb(255,74,87);
+}
+
+.btn-icon{
+    display: flex;
+}
+
+#hd1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#service{
+    padding-top: 0;
+    margin-top: 0;
+    background: rgb(31,34,53);
+    color: white;
+}
+
+.servicediv1 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.servicediv1 h6{
+    padding-top: 10%;
+    color: rgb(255,74,87);
+    margin-bottom: 20px;
+}
+
+.servicediv1 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.servicediv1 p{
+    font-size: large;
+    width: 50%;
+    text-align: center;
+    margin-left: 24%;
+}
+
+.servicediv2 {
+    margin-left: 5%;
+}
+
+.container{
+    padding-bottom: 40px;   
+}
+
+.card1{
+    text-align: left;
+    color: white !important;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(36,38,53) !important;
+}
+
+.card-body {
+    margin-top: 15%;
+}
+
+.icon{
+    margin-bottom: 10%;
+    color: rgb(255,74,87) !important;
+}
+
+.card1:hover{
+    background: rgb(255,74,87) !important;
+    color: white !important;
+}
+
+.icon:hover{
+    background: rgb(255,74,87) !important;
+    color: white !important;
+}
+
+.servicediv3{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.servicediv3 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.servicediv3 p{
+    font-size: large;
+    width: 50%;
+    text-align: center;
+    margin-left: 24%;
+}
+
+.servicediv4 {
+    display: flex;
+} 
+
+#pic2{
+    margin-left: 10%;
+}
+
+#about{
+    background: rgb(36,38,53) !important; 
+    color: white !important;
+ }
+
+.abouttext{
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-right: 40px;
+}
+
+.abouttext h2{
+    font-weight: bold;
+}
+
+.subabt{
+    display: flex;
+}
+
+#subabt2{
+    margin-left: 20px;
+}
+
+.spanid{
+    color: rgb(255,74,87);
+    font-weight: bold;
+}
+
+#hr{
+    border: 10px;
+    height: 5px;
+    background: rgb(255, 77, 88);
+    width: 80px;
+    margin-top: 30px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#skill{
+    display: flex;
+    background: rgb(31,34,53);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.progressbar{
+    position: relative;
+    margin-left: 60px;
+    padding-top: 90px;
+}
+
+.servicediv5{
+    margin-left: 80px;
+}
+
+.servicediv5 h6{
+    color: rgb(255, 77, 88);   
+}
+
+.servicediv5 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.servicediv5 p{
+    width: 450px;
+    padding-bottom: 20px;
+}
+
+.container1 {
+    width: 500px;
+    background-color: #4b3e3e;
+    height: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    text-align: right;
+    color: white;
+    height: 5px;
+  }
+  
+  .html {width: 88%; background-color: rgb(255, 77, 88);}
+  .css {width: 81%; background-color: rgb(255, 77, 88);}
+  .js {width: 70%; background-color: rgb(255, 77, 88);}
+  .php {width: 90%; background-color: rgb(255, 77, 88);}
+
+#pecnt1{
+    text-align: center;
+    border: 3px solid white;
+    width: 50px;
+    border-radius: 5px;
+    position: absolute;
+    top: 95px;
+    left: 390px;
+  }
+
+#pecnt2{
+    text-align: center;
+    border: 3px solid white;
+    width: 50px;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px;
+    left: 355px;
+}
+
+#pecnt3{
+    text-align: center;
+    border: 3px solid white;
+    width: 50px;
+    border-radius: 5px;
+    position: absolute;
+    top: 225px;
+    left: 300px;
+}
+
+#pecnt4{
+    text-align: center;
+    border: 3px solid white;
+    width: 50px;
+    border-radius: 5px;
+    position: absolute;
+    top: 290px;
+    left: 400px;
+}
+
+#portfolio{
+    color: white;
+    background: rgb(36,38,53);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.servicediv6{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.servicediv6 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    font-weight: bold; 
+}
+
+.servicediv6 p{
+    width: 500px;
+    padding-bottom: 20px;
+    margin-left: 350px;
+}
+
+.portbtn{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#portbtn2{
+    color: white;
+    background: transparent;
+    border: 2px solid rgb(255,74,87);
+    border-radius: 50px;
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+}
+
+#portbtn2:hover{
+    background-color: rgb(255,74,87);
+}
+
+.imagediv{
+    display: flex;
+    width: 50px;
+    margin-left: 100px;
+    
+}
+
+.imagediv1{
+    margin: 10px;
+}
+
+#img1{
+    width: 320px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#img2{
+    width: 320px; 
+    border-radius: 8px; 
+    margin-bottom: 20px;
+}
+
+#img3{
+    width: 320px;
+    border-radius: 8px;  
+}
+
+#img4{
+    width: 320px;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+}
+
+#img5{
+    width: 320px;
+    border-radius: 8px; 
+}
+
+#img6{
+    width: 320px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#img7{
+    width: 320px; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#img8{
+    width: 320px; 
+    border-radius: 8px;
+}
+
+#price{
+    color: white;
+    background: rgb(31,34,53);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.servicediv7 h6{
+    padding-top: 8%;
+    color: rgb(255,74,87);
+}
+
+.servicediv7 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.servicediv7 p{
+    width: 500px;
+    padding-bottom: 20px;
+    margin-left: 350px;
+}
+
+.servicediv8{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+#priselist1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 29%;
+    border-radius: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(36,38,53) !important;
+}
+
+#priselist2{
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 29%;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 2px solid rgb(255,74,87);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(36,38,53) !important;
+}
+
+#recom{
+    background: rgb(255,74,87);
+    height: 30px;
+    width: 140px;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+#priselist3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 29%;
+    border-radius: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(36,38,53) !important;
+}
+
+#pricebtn{
+    margin-top: 30px;
+    padding: 10px;
+    width: 40%;
+    border: 3px solid rgb(255,74,87);
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+}
+
+#pricebtn:hover{
+    padding: 10px;
+    width: 40%;
+    border: 3px solid rgb(255,74,87);
+    border-radius: 50px;
+    background-color: rgb(255,74,87);
+    color: white; 
+}
+
+#pricebtn1{
+    margin-top: 30px;
+    padding: 10px;
+    width: 40%;
+    border: 3px solid rgb(255,74,87);
+    border-radius: 50px;
+    background-color: rgb(255,74,87);
+    color: white; 
+}
+
+hr{
+    width: 300px ;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#dollar{
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.price{
+    font-size: 400%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#achievements{
+    color: white;
+    background: rgb(36,38,53) ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.achivediv{
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+
+.achivediv h1{
+    font-size: 300%;
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(255,74,87);
+}
+
+#testimonial{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    color: white;
+    background: rgb(31,34,53);
+}
+
+.servicediv9{
+    margin-left: 80px;
+}
+
+.servicediv9 h6{
+    color: rgb(255, 77, 88);   
+}
+
+.servicediv9 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.servicediv9 p{
+    width: 450px;
+    padding-bottom: 20px;
+}
+
+#testimony{
+    width: 500px;
+    height: 200px;
+    padding-right: 20px;
+    justify-content: left;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(36,38,53) !important;
+}
+
+#quote{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+#sub-testimony{
+    display: flex;
+}
+
+#sub-testimony p{
+    padding-top: 50px;
+}
+
+#icon1{
+    color: rgb(255, 77, 88);
+}
+
+#review{
+    display: flex;
+    padding-top: 40px;
+}
+
+#review img{
+    border: 2px solid white;
+    border-radius: 50px;
+    height: 70px;
+}
+
+#person{
+    display: flex;
+    padding-right: 195px;
+}
+
+#person p{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#person p span{
+    font-weight: bold;
+}
+
+#btnn{
+    padding-top: 12px;
+}
+
+.btn3{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.btn3:hover{
+    border: 2px solid rgb(255,74,87);
+}
+
+.servicediv10{
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+#assiociates{
+    padding-top: 80px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: rgb(36,38,53);
+}
+
+#assiociates div{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#blog{
+    color: white;
+    background: rgb(31,34,53);
+    text-align: center;
+}
+
+.servicediv11 h6{
+    padding-top: 8%;
+    color: rgb(255,74,87);
+}
+
+.servicediv11 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.servicediv11 p{
+    width: 500px;
+    padding-bottom: 20px;
+    margin-left: 350px;
+}
+
+#adminicon{
+    color: rgb(255,74,87) !important;
+}
+
+.servicediv12{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+#readme{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#readme:hover{
+    color: rgb(255,74,87);
+}
+
+.note{
+    font-weight: bold;
+}
+
+.card2{
+    text-align: left;
+    color: white !important;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(36,38,53) !important;
+}
+
+#contactme{
+    color: white;
+    background: rgb(31,34,53);
+    text-align: center;
+}
+
+.servicediv13 h6{
+    padding-top: 8%;
+    color: rgb(255,74,87);
+}
+
+.servicediv13 h1{
+    font-size: 400%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.servicediv13 p{
+    width: 500px;
+    padding-bottom: 20px;
+    margin-left: 350px;
+}
+
+.servicediv14{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact1{
+    text-align: left;
+    display: flex;
+    padding: 20px;
+    width: 350px;
+    height: 100px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(36,38,53) !important;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#contact1 div i{
+    color: rgb(255,74,87);
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+#contact1 div span{
+    font-weight: bold;
+}
+
+#contact-form{
+    padding: 50px;
+}
+
+#contact-form #text{
+    width: 520px;
+    height: 50px;
+    margin: 10px;
+    background: rgb(36,38,53);
+    border: transparent;
+    color: white;
+}
+
+#contact-form #subject{
+    width: 1060px;
+    height: 50px;
+    background: rgb(36,38,53);
+    border: transparent;
+    margin: 10px;
+    color: white;
+}
+
+#contact-form #message{
+    width: 1060px;
+    height: 180px;
+    background: rgb(36,38,53);
+    border: transparent;
+    margin: 10px;
+    color: white;
+}
+
+#contact-form button{
+    padding: 12px;
+    width: 200px;
+    border: 3px solid rgb(255,74,87);
+    border-radius: 50px;
+    background-color: rgb(255,74,87);
+    color: white;
+    margin-top: 20px;
+    margin-right: 860px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background: rgb(36,38,53);
+    padding-bottom: 40px;
+}
+
+#footerimg{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+footer img{
+    height: 40px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+footer p{
+    width: 700px;
+    margin-left: 260px;
+    padding-bottom: 40px;
+}
+
+footer button{
+    background: rgb(31,34,53);
+    border: transparent;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    color: white;
+    margin: 10px;
+}
+
+#footerbtn{
+    padding-bottom: 80px;
+}
+
+footer span{
+    color: rgb(255,74,87);
+}
+
+footer button:hover{
+    background: rgb(255,74,87);
+}
